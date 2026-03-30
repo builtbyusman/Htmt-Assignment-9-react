@@ -1,0 +1,166 @@
+export default function App() {
+  return (
+    <>
+      <h1>PERIODIC Table of Elements</h1>
+      <table border="1">
+        <tr>
+          <th><sup>1</sup> H</th>
+          <th colspan="16"></th>
+          <th><sup>2</sup> He</th>
+        </tr>
+
+        <tr>
+          <th><sup>3</sup> Li</th>
+          <th><sup>4</sup> Be</th>
+          <th colspan="10"></th>
+          <th><sup>5</sup> B</th>
+          <th><sup>6</sup> C</th>
+          <th><sup>7</sup> N</th>
+          <th><sup>8</sup> O</th>
+          <th><sup>9</sup> F</th>
+          <th><sup>10</sup> Ne</th>
+        </tr>
+
+        <tr>
+          <th><sup>11</sup> Na</th>
+          <th><sup>12</sup> Mg</th>
+          <th colspan="10"></th>
+          <th><sup>13</sup> Al</th>
+          <th><sup>14</sup> Si</th>
+          <th><sup>15</sup> P</th>
+          <th><sup>16</sup> S</th>
+          <th><sup>17</sup> Cl</th>
+          <th><sup>18</sup> Ar</th>
+        </tr>
+
+        <tr>
+          <th><sup>19</sup> K</th>
+          <th><sup>20</sup> Ca</th>
+          <th><sup>21</sup> Sc</th>
+          <th><sup>22</sup> Ti</th>
+          <th><sup>23</sup> V</th>
+          <th><sup>24</sup> Cr</th>
+          <th><sup>25</sup> Mn</th>
+          <th><sup>26</sup> Fe</th>
+          <th><sup>27</sup> Co</th>
+          <th><sup>28</sup> Ni</th>
+          <th><sup>29</sup> Cu</th>
+          <th><sup>30</sup> Zn</th>
+          <th><sup>31</sup> Ga</th>
+          <th><sup>32</sup> Ge</th>
+          <th><sup>33</sup> As</th>
+          <th><sup>34</sup> Se</th>
+          <th><sup>35</sup> Br</th>
+          <th><sup>36</sup> Kr</th>
+        </tr>
+
+        <tr>
+          <th><sup>37</sup> Rb</th>
+          <th><sup>38</sup> Sr</th>
+          <th><sup>39</sup> Y</th>
+          <th><sup>40</sup> Zr</th>
+          <th><sup>41</sup> Nb</th>
+          <th><sup>42</sup> Mo</th>
+          <th><sup>43</sup> Tc</th>
+          <th><sup>44</sup> Ru</th>
+          <th><sup>45</sup> Rh</th>
+          <th><sup>46</sup> Pd</th>
+          <th><sup>47</sup> Ag</th>
+          <th><sup>48</sup> Cd</th>
+          <th><sup>49</sup> In</th>
+          <th><sup>50</sup> Sn</th>
+          <th><sup>51</sup> Sb</th>
+          <th><sup>52</sup> Te</th>
+          <th><sup>53</sup> I</th>
+          <th><sup>54</sup> Xe</th>
+        </tr>
+
+        <tr>
+          <th><sup>55</sup> Cs</th>
+          <th><sup>56</sup> Ba</th>
+          <th><sup>57-71</sup> </th>
+          <th><sup>72</sup> Hf</th>
+          <th><sup>73</sup> Ta</th>
+          <th><sup>74</sup> W</th>
+          <th><sup>75</sup> Re</th>
+          <th><sup>76</sup> Os</th>
+          <th><sup>77</sup> Ir</th>
+          <th><sup>78</sup> Pt</th>
+          <th><sup>79</sup> Au</th>
+          <th><sup>80</sup> Hg</th>
+          <th><sup>81</sup> Ti</th>
+          <th><sup>82</sup> Pb</th>
+          <th><sup>83</sup> Bi</th>
+          <th><sup>84</sup> Po</th>
+          <th><sup>85</sup> At</th>
+          <th><sup>86</sup> Rn</th>
+        </tr>
+
+        <tr>
+          <th><sup>87</sup> Fr</th>
+          <th><sup>88</sup> Ra</th>
+          <th><sup>89-103</sup> </th>
+          <th><sup>104</sup> Rf</th>
+          <th><sup>105</sup> Db</th>
+          <th><sup>106</sup> Sg</th>
+          <th><sup>107</sup> Bh</th>
+          <th><sup>108</sup> Hs</th>
+          <th><sup>109</sup> Mt</th>
+          <th><sup>110</sup> Ds</th>
+          <th><sup>111</sup> Rg</th>
+          <th><sup>112</sup> Cn</th>
+          <th><sup>113</sup> Nh</th>
+          <th><sup>114</sup> Fl</th>
+          <th><sup>115</sup> Mc</th>
+          <th><sup>116</sup> Lv</th>
+          <th><sup>117</sup> Ts</th>
+          <th><sup>118</sup> Og</th>
+        </tr>
+
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <th colspan="2"></th>
+          <th><sup>57</sup> La</th>
+          <th><sup>58</sup> Ce</th>
+          <th><sup>59</sup> Pr</th>
+          <th><sup>60</sup> Nd</th>
+          <th><sup>61</sup> Pm</th>
+          <th><sup>62</sup> Sm</th>
+          <th><sup>63</sup> Eu</th>
+          <th><sup>64</sup> Gd</th>
+          <th><sup>65</sup> Tb</th>
+          <th><sup>66</sup> Dy</th>
+          <th><sup>67</sup> Ho</th>
+          <th><sup>68</sup> Er</th>
+          <th><sup>69</sup> Tm</th>
+          <th><sup>70</sup> Yt</th>
+          <th><sup>71</sup> Lu</th>
+        </tr>
+
+        <tr>
+          <th colspan="2"></th>
+          <th><sup>89</sup> Ac</th>
+          <th><sup>90</sup> Th</th>
+          <th><sup>91</sup> Pa</th>
+          <th><sup>92</sup> U</th>
+          <th><sup>93</sup> Np</th>
+          <th><sup>94</sup> Pu</th>
+          <th><sup>95</sup> Am</th>
+          <th><sup>96</sup> Cm</th>
+          <th><sup>97</sup> Bk</th>
+          <th><sup>98</sup> Cf</th>
+          <th><sup>99</sup> Es</th>
+          <th><sup>100</sup> Fm</th>
+          <th><sup>101</sup> Md</th>
+          <th><sup>102</sup> No</th>
+          <th><sup>103</sup> Lr</th>
+        </tr>
+
+      </table>
+    </>
+  );
+}
